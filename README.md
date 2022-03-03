@@ -1,5 +1,5 @@
 
-bcwatershedCharac
+bcwatershedChara
 ============================
 
 ### Usage
