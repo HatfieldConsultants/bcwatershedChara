@@ -1,0 +1,42 @@
+---
+title: "Ecological values"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of land cover disturbances in a watershed of interest. Questions, the purpose for asking them, and associated resources are listed below. 
+
+## Key questions
+
+### What fish species are present in the watershed?  
+  + **Purpose:** Key consideration for effects of changes in streamflow or water quality
+  + **Resources:** 
+      + [iMap BC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+  
+
+### Have endangered species been identified in the watershed?  
+  + **Purpose:** Key consideration for effects of changes in streamflow or water quality, and also for general changes to land cover
+  + **Resources:** 
+    + [CDC Imap](http://maps.gov.bc.ca/ess/hm/cdc/)
+
+### What fraction of the watershed is forested?   
+  + **Purpose:** Implications for watershed hydrology and historical/future changes to flow characteristics should changes in forest cover occur
+  + **Resources:** 
+      + [BC Vegetation Resource Inventory](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+      + [Google Earth desktop](https://www.google.com/earth/versions/)
+ 
+  
+### Have environmental flow thresholds been set for the watershed?   
+  + **Purpose:** Information may be available on how much change to streamflow can occur before harm is done to aquatic organisms
+  + **Resources:** 
+     + [BC Water tool](https://www.bcwatertool.ca/)
+    
+
+### What is the species composition of forested areas?
+  + **Purpose:** Implications for watershed hydrology
+  + **Resources:** 
+    + [BC Vegetation Resource Inventory](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+

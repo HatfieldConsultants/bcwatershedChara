@@ -1,0 +1,55 @@
+---
+title: "Watershed disturbance"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of land cover disturbances in a watershed of interest. Questions, the purpose for asking them, and associated resources are listed below. 
+
+## Key questions
+
+### Has the watershed been logged? If so, when, and how much? 
+  + **Purpose:** Implications for watershed hydrology and historical/future changes to flow characteristics
+  + **Resources:** 
+      + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+      + [BC Vegetation Resource Inventory](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+
+### Have wildfires recently occurred in the watershed? 
+  + **Purpose:** Implications for watershed hydrology and sediment yield, and ongoing changes in flow characteristics
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+
+### Has the watershed been affected by forest pests such as Mountain Pine Beetle? 
+  + **Purpose:** Implications for watershed hydrology and historical/future changes to flow characteristics
+  + **Resources:** 
+      + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+ 
+  
+### Have any major windstorms affecting forest cover occurred?  
+  + **Purpose:** Implications for watershed hydrology and potentially future sediment yield
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Environment Canada](https://climate.weather.gc.ca/)
+    
+
+### Have any major landslides or debris flows been documented? 
+  + **Purpose:** Implications for sediment transport and stream channel stability
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [BC air photo viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer)
+
+
+### Has placer mining ever occurred in the watershed? 
+  + **Purpose:** Implications for sediment transport and stream channel stability
+  + **Resources:**
+      + [Google Earth desktop](https://www.google.com/earth/versions/)
+      + [Mineral Titles Online](https://www.mtonline.gov.bc.ca/mtov/home.do)
+  
+### What length of road network is present in the watershed?  
+  + **Purpose:** Implications for watershed hydrology, landslide hazard, and suspended sediment yield
+  + **Resources:**
+   + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)

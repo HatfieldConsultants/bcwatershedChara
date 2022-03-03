@@ -1,0 +1,56 @@
+---
+title: "Groundwater"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of groundwater in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### What existing GW licences are present in the watershed? 
+  + **Purpose:** Indicator of existing water allocation, % allocation
+  + **Resources:** 
+    + [Groundwater Well and Aquifers Search](https://apps.nrs.gov.bc.ca/gwells/)
+    + [BC Water tool](https://www.bcwatertool.ca/)
+
+
+### Are major industrial or agricultural water users present in the watershed? 
+  + **Purpose:** Indicator of potential groundwater allocation quantity and potential for groundwater contamination
+  + **Resources:** 
+    + [Groundwater Well and Aquifers Search](https://apps.nrs.gov.bc.ca/gwells/)
+    + [BC Water tool](https://www.bcwatertool.ca/)
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Geogratis](https://geogratis.gc.ca/)
+
+  
+### Is groundwater the dominant water source for streams during dry periods? 
+  + **Purpose:** May provide information on surface water impacts from groundwater withdrawals during dry conditions. Likely needs to be inferred from the presence of lakes, glaciers, or persistent snowpack.
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Geogratis](https://geogratis.gc.ca/)
+ 
+  
+### What is the quality of the groundwater? 
+  + **Purpose:** Indicator of disturbances from land use or other factors which may impact groundwater quality
+  + **Resources:** 
+    + [BC EMS](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/groundwater-observation-well-network)
+    + [shinyREMS](https://github.com/bcgov/shinyrems)
+ 
+  
+### Are water use restrictions in place in the watershed? 
+  + **Purpose:** Indicator of low groundwater availability, or fully allocated groundwater. Note that many municipalities have separate water restriction information resources. 
+  + **Resources:** 
+    + [BC drought monitoring](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/drought-information)
+   
+    
+    
+### What groundwater monitoring occurs in the watershed?
+  + **Purpose:** Helpful for learning about real-time data availability relevant to groundwater
+  + **Resources:** 
+    + [Real-Time Water Data Tool](https://aqrt.nrs.gov.bc.ca/)
+
+  

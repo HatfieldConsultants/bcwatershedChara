@@ -1,0 +1,66 @@
+---
+title: "Watershed land use"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of geology and geomorphology in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### Does agriculture occur in the region? 
+  + **Purpose:** May have implications for existing water use, water quality, and stream channel characteristics
+  + **Resources:** 
+      + [Google Earth desktop](https://www.google.com/earth/versions/)
+      + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+
+
+### What land area has been cleared for agriculture and what types of agriculture occur? 
+  + **Purpose:** May have implications for watershed hydrology and water quality
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+
+### Are other industries operating in the watershed (e.g. mining, oil and gas) which might use or impact water? 
+  + **Purpose:** May have implications for watershed hydrology and water quality, and impacts to water availability
+  + **Resources:** 
+      + [BC Water tool](https://www.bcwatertool.ca/)
+ 
+  
+### Do any communities exist in the watershed? 
+  + **Purpose:** Implications for water quality (e.g. from urban runoff), risk of impacts from flooding or river dynamics
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Geogratis](https://geogratis.gc.ca/)
+    
+
+### Is the watershed a Community Watershed? 
+  + **Purpose:** Implications for water quality requirements in the watershed
+  + **Resources:** 
+    + [BC data catalogue](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-quality/community-watersheds)
+
+
+### What fraction of the watershed is urbanized?  
+  + **Purpose:** Implications for water quality (e.g. from urban runoff), risk of impacts from flooding or river dynamics
+  + **Resources:**
+      + [Google Earth desktop](https://www.google.com/earth/versions/)
+      + [Geogratis](https://geogratis.gc.ca/)
+  
+### What private land is present in the watershed?  
+  + **Purpose:** Implications for the kinds of impacts and future developments are possible in the watershed
+  + **Resources:**
+   + [BC Land Title and Survey map](https://www.ltsa.ca/)
+
+### What reserve land is present in the watershed?  
+  + **Purpose:** Implications for the kinds of impacts and future developments which are possible in the watershed, and what consultation is needed for future projects
+  + **Resources:**
+    + [First Nations Profiles Interactive Map](https://geo.aadnc-aandc.gc.ca/cippn-fnpim/index-eng.html)
+  
+### What parkland/other protected land is within the watershed? ?  
+  + **Purpose:** Implications for the kinds of impacts and future developments are possible in the watershed
+  + **Resources:**
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+  

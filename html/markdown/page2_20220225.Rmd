@@ -1,0 +1,321 @@
+---
+title: "British Columbia Watershed Characterization Data Source Overview"
+output: 
+  html_document:
+    number_sections: true  
+    css: bcgov.css
+---
+
+<style>
+    body .main-container {
+        max-width: 1500px;
+    }
+    .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #236471;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# keep notes
+#     toc: true 
+#     toc_float: yes
+#     toc_depth: 3  
+```
+
+# Basic Watershed Analysis
+
+The first step is to decide what watershed you want to conduct analysis for. Once you have chosen your watershed of interest, you will want to collect some very basic information about the watershed that is applicable to most types of analyses. To collect this basic data for the watershed we consider five key questions:
+
+1. What other other studies/reports have been done on this watershed?
+2. What base maps can I use to explore the watershed? 
+3. What are the basic hydrometeorological characteristics of the watershed?
+4. What are the geological and hillslope conditions within the watershed?
+5. What are the basic land uses/cover within the watershed?
+
+We address each of these questions in turn below, asking additional questions where necessary, and provide links to the most applicable sources of data to answer them. 
+  
+## What other studies/reports have been done on this watershed?
+
+Reports and other publications can provide important insights into the characteristics of a watershed and may offer information about past projects that have been undertaken in the region. 
+
+[EcoCat: The Ecological Reports Catalogue](https://a100.gov.bc.ca/pub/acat/public/welcome.do) represents a large repository for reports on ecological activities in British Columbia, plus related files such as maps, datasets and published inventories. 
+
+[Geosciences BC](https://www.geosciencebc.com/our-research/) generates independent, public geoscience research and data about British Columbia’s minerals, energy and water resources and provides a search function on their website for projects and reports wherein it is possible to filter specifically for water-related resources. 
+
+[Google Search](https://google.com) and [Google Scholar](https://scholar.google.com) provide comprehensive general searches for any study site. 
+
+[The Government of Canada Publications](https://publications.gc.ca/site/eng/home.html) portal searches their catalogue of 535,100 publications and provides access to more than 414,300 digital publications. 
+
+[The Water Science Series](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-science-series) is a technical publication focusing on scientific reports that relate to the understanding and management of B.C.’s water resources.
+
+[The Watershed Research](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/watershed-research) page hosts documents pertaining to multiple long-term watershed projects in the province.
+
+
+
+## What base maps can I use to explore the watershed?
+
+Spatial data ultimately comes in two data forms: raster and vector. Raster images are typically provided as tiff files and use pixels to represent spatial data for an area. Imagery, such as air photos and satellite images, are key examples of raster data, however elevation data, such as digital elevation models (DEM) are typically also provided as rasters. Vector data is made up of mathematical paths that link spatial points to form shapes. Vector data is typically provided as shapefiles or KML files and map out specific landscape features such as road networks, park areas, or station locations.
+
+### What raster data is available?
+
+[Air Photo Viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer) provides air photos dating back to as early as the 1940s are available for the entirety of the province. 
+
+[BC Map Services](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services#BCGW) provides links to the B.C. Geographic Warehouse Map Web Service, the B.C. Imagery Web Map Services, and the B.C. Base Mapping Tiles Services.  
+
+[Earthdata Search](https://search.earthdata.nasa.gov/search) provides access to more than 33,000 Earth observation data collections from NASA’s EOSDIS, as well as from other U.S. and international partner agencies.
+
+[Earth Explorer](https://earthexplorer.usgs.gov/) provides access to imagery from many global satellites, such as Landsat and Sentinel, as well as to aerial imagery that extends up into some southern parts of B.C. 
+
+[GeoGratis](http://geogratis.gc.ca/index.html) is the main repository of spatial data for the Government of Canada.
+
+[HectaresBC](https://hectaresbc.ca/app/habc/HaBC.html) is a grid-based geospatial data (100 meter by 100 meter cells) that uses simple query search to combine multiple datasets and quantify values for areas of interest.
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province.
+
+[LiDAR Data Portal](https://governmentofbc.maps.arcgis.com/apps/MapSeries/index.html?appid=d06b37979b0c4709b7fcf2a1ed458e03) provides access to freely available LiDAR data that covers select portions of the southern half of the province
+
+[MapPlace](https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace) is a map repository catered specifically towards geoscience and mineral resource data and maps in the Province of B.C.
+
+[Planet Explorer](https://www.planet.com/) a web-based mapping system that provides high frequency, high-resolution global satellite imagery.
+
+[Sentinel Open Access Hub](https://scihub.copernicus.eu/dhus/) provides access to Sentinel data from the European Space Agency.
+
+### What vector data is available?
+
+[BC Map Services](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services#BCGW) provides links to the B.C. Geographic Warehouse Map Web Service, the B.C. Imagery Web Map Services, and the B.C. Base Mapping Tiles Services.  
+
+[GeoGratis](http://geogratis.gc.ca/index.html) is the main repository of spatial data for the Government of Canada.
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province. Layer categories of particular relevance: 
+
+* "Administrative Boundaries"
+* "Base Maps"
+* "Imagery"
+
+[MapPlace](https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace) is a map repository catered specifically towards geoscience and mineral resource data and maps in the Province of B.C.
+
+### What applications/platforms can I view the spatial data on?
+
+[Earth Explorer](https://earthexplorer.usgs.gov/) provides access to imagery from many global satellites, such as Landsat and Sentinel, as well as to aerial imagery that extends up into some southern parts of B.C. 
+
+[Google Earth Pro](https://www.google.com/earth/versions/) can be used as a desktop application or web version to load and view spatial data. 
+
+[HectaresBC](https://hectaresbc.ca/app/habc/HaBC.html) is a grid-based geospatial data (100 meter by 100 meter cells) that uses simple query search to combine multiple datasets and quantify values for areas of interest.
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province.
+
+[MapPlace](https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace) is a map repository catered specifically towards geoscience and mineral resource data and maps in the Province of B.C.
+
+[QGIS](https://www.qgis.org/en/site/) is a free and open source Geographic Information System.
+
+
+### What tools can I use to make simple measurements of the watershed?
+
+[Google Earth Pro](https://www.google.com/earth/versions/) can be used as a desktop application or web version to load and view spatial data. 
+
+[Earth Point](https://www.earthpoint.us/) provides tools for working between Excel and Google Earth.
+
+
+### What are some other spatial questions that I can explore and where can I find resources?
+
+***What are the boundaries of the watershed?***
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/)
+
+[BC Map Services](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services#BCGW)
+
+
+***What is the spatial area of the watershed?***
+
+[Earth Point](https://www.earthpoint.us/)
+
+[Google Earth Pro](https://www.google.com/earth/versions/)
+
+
+***Are there images of the watershed through time?***
+
+[Air Photo Viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer) 
+
+[Google Earth Pro](https://www.google.com/earth/versions/)
+
+[Earth Explorer](https://earthexplorer.usgs.gov/)
+
+
+***Is there elevation data for the watershed?***
+
+[GeoGratis](http://geogratis.gc.ca/index.html)
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/)
+
+[LiDAR Data Portal](https://governmentofbc.maps.arcgis.com/apps/MapSeries/index.html?appid=d06b37979b0c4709b7fcf2a1ed458e03)
+
+
+***What are the water features in the watershed?***
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/)
+
+
+***Are there roads and/or other infrastructure within the watershed?***
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/)
+
+
+
+## What are the basic hydrometeorological characteristics of the watershed?
+
+Historical climate data and stream flow data for the Province of B.C. exists from a variety of sources. Multiple agencies have well-established and long-term networks of stations installed around the province, and where station coverage is sub-optimal, several gridded datasets of modelled data is available. 
+
+### What is the historical climate of the watershed?
+
+[B.C. Hydro Hydromet Data](https://www.bchydro.com/energy-in-bc/operations/transmission-reservoir-data/hydrometeorologic-data.html) provides up to four days of climate data from B.C. Hydro hydromet stations.
+
+[ClimateBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services#BCGW) provides access to historical climate data derived from downscaled PRISM 1971-2000 gridded monthly climate normal data at scale-free point locations (instead of grid averages) within B.C.
+
+[Canada Historical Climate Data](https://climate.weather.gc.ca/) provides datasets from a vast country-wide network of climate stations, 1773 of which are in British Columbia.
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province. Layer categories of particular relevance: 
+
+* "Air and Climate"
+* "Fresh Water and Marine > Snow Surveys"
+
+[PCIC's Data Portal](https://www.pacificclimate.org/data) provides access to two gridded historical climate data sets: Daily Gridded Meteorological Datasets (PNWNAMET, NRCANMET, and PBCMET) and PRISM Climatology and Monthly Timeseries.
+
+[B.C. Snow Survey Data](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/snow-survey-data) hosts data from automated snow weather stations (snow water equivalent, snow depth, cumulative precipitation and ambient temperature) and manual snow survey sites. 
+
+### What historical surface water data is available for the watershed?
+
+[B.C. Hydro Hydromet Data](https://www.bchydro.com/energy-in-bc/operations/transmission-reservoir-data/hydrometeorologic-data.html) provides up to four days of flow data from B.C. Hydro hydromet stations.
+
+[B.C. Hydrology Program](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/provincial-hydrology-program) provides a comprehensive overview of the range of surface water data collected at the provincial level.
+
+[B.C. Streamflow Inventory](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/provincial-hydrology-program/resources/streamflow-inventory) provides regional analyses of surface flows.
+
+[B.C. Water Resources Atlas](https://maps.gov.bc.ca/ess/hm/wrbc/) allows the visualization and downloading of all data related to water resources in B.C.
+
+[B.C. Water Tool](https://www.bcwatertool.ca/) is a invaluable resource for exploring and finding data about water resources in B.C. 
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province. Layer categories of particular relevance: 
+
+* "Base Maps > Freshwater Atlas"
+* "Base Maps > Watershed Atlas"
+* "Fresh Water and Marine"
+
+[River Forecaset Centre](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/river-forecast-centre/current-streamflow-conditions-and-flood-forecast-modeling) provides forecasted flow data from several models, including the CLEVER model, the WARNS model, and the COFFEE model.
+
+[Water Survey of Canada](https://wateroffice.ec.gc.ca/mainmenu/real_time_data_index_e.html) is a highly comprehensive record of historical and real-time streamflow data available for all of Canada, including B.C.
+
+### What historical groundwater data is available for the watershed?
+
+[B.C. Water Resources Atlas](https://maps.gov.bc.ca/ess/hm/wrbc/) allows the visualization and downloading of all data related to water resources in B.C.
+
+[Environmental Reporting B.C.](https://www.env.gov.bc.ca/soe/indicators/water/groundwater-levels.html) is an in-depth report about long-term trends in groundwater levels in B.C.
+
+[Groundwater Level Monitoring Data](https://governmentofbc.maps.arcgis.com/apps/webappviewer/index.html?id=b53cb0bf3f6848e79d66ffd09b74f00d) a map that provides access to groundwater level data using an interactive map or by browsing a list of active observation wells.
+
+[Groundwater Well and Aquifers Search](https://apps.nrs.gov.bc.ca/gwells/) provides access to information about well location, well construction, and depth of well, and where this data is available from for all licensed wells around B.C. 
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province. Layer categories of particular relevance: 
+
+* "Base Maps > Freshwater Atlas"
+
+* "Mining and Petroleum > Oil and Gas Comission - Wells"
+
+### What are some other hydrometeorological questions that I can use these tools to answer?
+
+***What is the mean annual precipitation? Monthly/seasonal precipitation?***
+
+***Does the watershed receive snow? Percentage of precipitation as snow?***
+
+***What are the mean annual and mean monthly air temperatures?***
+
+***What is the variability of climate variables (e.g. seasonal, annual)?***
+
+***What is the hydrological regime (i.e. snow, rain, hybrid, glacial)?***
+
+***What is the primary driver of flow (i.e. snow, rain, storms, glaciers)?***
+
+***What components of the watershed act to store and release water (i.e. wetlands, lakes, glaciers)?***
+
+***What is the seasonality of the flow?***
+
+***What is the mean, max and min daily flows, monthly flows, and annual?***
+
+***Do processes involving ice (i.e. glaciers, river ice, permafrost) affect water parameters?***
+
+***Is runoff rapid or attenuated following a storm event?***
+
+***Is information about groundwater/surface water interactions available?***
+
+***Does stream flow become intermittent along the channel profile? Through the year?***
+
+***Have there been any recent extreme floods? If not, how long ago was the last major flood?***
+
+***Does a flood frequency analysis exist for the watershed?***
+
+
+
+## What are the geological and hillslope conditions within the watershed?
+
+### What is the underlying geology?
+
+[B.C. Digital Geology](https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/geology/bcdigitalgeology) hosts province-wide digital coverage of British Columbia's bedrock geology, with maps ranging in scale from 1:50,000 to 1:250,000.
+
+[GEOSCAN](https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/geoscan_e.web#?) provides access to all the scientific publications from Natural Resources Canada (NRCan). 
+
+[Interactive Geology Map](https://bbcga.com/bc-interactive-map/) , hosts an Interactive Geology Map of the province which allows users to explore the geology around B.C. as well as virtually navigate geological specimens from different areas around the province. 
+
+[MapPlace](https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace) is a map repository catered specifically towards geoscience and mineral resource data and maps in the Province of B.C.
+
+### What is the surficial material?
+
+[B.C. Soil Information Finder Tool](https://governmentofbc.maps.arcgis.com/apps/MapSeries/index.html?appid=cc25e43525c5471ca7b13d639bbcd7aa) is an interactive mapping application that provides access to soil survey maps, soil attributes, and agriculture capability mapping around B.C. 
+
+[Terrain Mapping Polygons](https://open.canada.ca/data/en/dataset/caf1ad28-9bd9-4b41-b2f8-928fff115855/resource/e9460689-7446-4fc8-9cce-c2d9cfd36c8f) this dataset divides the province into units according to surficial materials, landforms, and geomorphological processes using the Terrain Classification System for British Columbia.
+
+### Has there been historical watershed disturbances?
+
+[Aerial Overhead Surveys](https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/forest-health/aerial-overview-surveys) includes spatial information about patterns of disturbance across the provincial forested land base.
+
+[Terrain Mapping (TER) Polygons](https://open.canada.ca/data/en/dataset/caf1ad28-9bd9-4b41-b2f8-928fff115855/resource/e9460689-7446-4fc8-9cce-c2d9cfd36c8f) this dataset divides the province into units according to surficial materials, landforms, and geomorphological processes using the Terrain Classification System for British Columbia.
+
+[B.C. Vegetation Resource Inventory (VRI)](https://open.canada.ca/data/en/dataset/caf1ad28-9bd9-4b41-b2f8-928fff115855/resource/e9460689-7446-4fc8-9cce-c2d9cfd36c8f) contain records of disturbance type and disturbance date for vegetation polygons across the province. 
+
+
+
+## What are the basic land uses/cover within the watershed? 
+
+[B.C. Vegetation Resource Inventory (VRI)](https://open.canada.ca/data/en/dataset/caf1ad28-9bd9-4b41-b2f8-928fff115855/resource/e9460689-7446-4fc8-9cce-c2d9cfd36c8f) provides in-depth data about forest management around the province. 
+
+[Community Watershed Tool](https://www.env.gov.bc.ca/wsd/data_searches/comm_watersheds/index.html) offers information about community-held water licenses for drinking water purposes.
+
+[EPIC](https://www.projects.eao.gov.bc.ca/projects) is a map-viewing platform that provides access to information about Environmental Assessment Projects around the province.
+
+[iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/) is an online map-based platform that provides the most comprehensive, freely available datasets of the province. Layer categories of particular relevance: 
+
+* "Adminstrative Boundaries"
+* "Agriculture"
+* "Forest Grasslands and Wetlands"
+* "Land Ownership and Status"
+* "Land Use Permits"
+* "Mining and Petroleum"
+* "Parks Recreation and Tourism"
+* "Transport"
+
+[Sensitive Ecosystems Inventory (SEI) Project](https://catalogue.data.gov.bc.ca/dataset/sensitive-ecosystems-inventory-sei-project-boundaries) highlight areas of the province for use in land-use decisions
+
+[Water License Search](https://j200.gov.bc.ca/pub/ams/Default.aspx?PossePresentation=AMSPublic&PosseObjectDef=o_ATIS_DocumentSearch&PosseMenuName=WS_Main) provides information about water use for freshwater sources around the province.
+
+
+
+# Investigating project-specific questions
+
+After having collected basic information about your watershed of interest it is now time to delve into some more project-specific questions about the watershed. We divide these questions into six main categories:
+
+1. Climate Change
+2. Surface and Subsurface Flow
+3. Ecosystem and Water Health
+4. Natural Hazards
+5. Natural Resources and Land Use
+6. Cultural Values
+

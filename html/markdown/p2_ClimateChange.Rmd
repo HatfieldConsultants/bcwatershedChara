@@ -1,0 +1,40 @@
+---
+title: "Climate change"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization climate change projections in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### What are the projected changes in total precipitation in the watershed? 
+
+  + **Purpose:** Understand future changes to watershed hydrology
+  + **Resources:** 
+    + [ClimateBC/ClimateWNA](http://climatebc.ca/)
+    + [PCIC Climate Analysis Tools](https://pacificclimate.org/analysis-tools)
+    + [Canadian Centre for Climate Services Climate Data Portals](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download.html)
+    
+
+### What are the projected changes in winter and summer temperature? 
+  + **Purpose:** Understand future changes to watershed hydrology, including risks of summer low flows and changes to snowmelt timing
+  + **Resources:** 
+    + [ClimateBC/ClimateWNA](http://climatebc.ca/)
+    + [PCIC Climate Analysis Tools](https://pacificclimate.org/analysis-tools)
+
+### How is snowpack expected to change in the region? 
+  + **Purpose:** Understand future changes to watershed hydrology and general hydrological regime
+  + **Resources:** 
+     + [PCIC Climate Analysis Tools](https://pacificclimate.org/analysis-tools)
+  
+### Is the region prone to wildfire or are wildfires likely to become more common? 
+  + **Purpose:** May indicate larger scale variability in climatological factors, and/or effects of climate change
+  + **Resources:** 
+    + [Wildland Urban Inteface Risk Class Maps](https://www2.gov.bc.ca/gov/content/safety/wildfire-status/prevention/vegetation-and-fuel-management/fire-fuel-management/wui-risk-class-maps)
+    + [ClimateBC/ClimateWNA](http://climatebc.ca/)
+    + [PCIC Climate Analysis Tools](https://pacificclimate.org/analysis-tools)
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)

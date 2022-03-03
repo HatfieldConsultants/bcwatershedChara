@@ -1,0 +1,43 @@
+---
+title: "Cultural values"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of land cover disturbances in a watershed of interest. Questions, the purpose for asking them, and associated resources are listed below. 
+
+## Key questions
+
+### What recreational opportunities exist in the watershed?   
+  + **Purpose:** Identify sites of high value or which may be of high recreational value in the future
+  + **Resources:** 
+      + [iMap BC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+  
+
+### What recreation infrastructure is present in the watershed?  
+  + **Purpose:** Identify existing sites of high importance
+  + **Resources:** 
+    + [Sites and Trails BC](http://www.sitesandtrailsbc.ca/)
+    + [iMap BC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+
+### Are there known sites of cultural significance to First Nations?  
+  + **Purpose:** Identify watershed areas of high cultural importance
+  + **Resources:** 
+      + [First Nations Profiles Interactive Map](https://geo.aadnc-aandc.gc.ca/cippn-fnpim/index-eng.html)
+ 
+  
+### Who’s traditional territory does the watershed of interest fall in?  
+  + **Purpose:** Important regarding consultation for projects 
+  + **Resources:** 
+     + [Native Land Digital](https://native-land.ca/)
+      
+    
+
+### Do treaties or other agreements with First Nations exist for this watershed? 
+  + **Purpose:** Important regarding consultation for projects and for understanding land rights in the watershed
+  + **Resources:** 
+    + [BC Treaty Commission](https://www.bctreaty.ca/map)
+

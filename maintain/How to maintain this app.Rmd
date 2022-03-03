@@ -1,0 +1,112 @@
+---
+title: "How to maintain the `British Columbia Watershed Characterization` application"
+author: ""
+date: "2022-02-27"
+output: 
+   html_document:
+      theme: cerulean
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+  
+  
+  
+# File structure
+
+The repository includes two parts of folders and files.
+
+### Application Crucial  
+  
+  + **app.R**       Initialized this application.  
+  + **bcwatershedchara.Rproj**    [R project file](https://r4ds.had.co.nz/workflow-projects.html).  
+  + **data**        Stores the data that will be loaded to the application.  
+  + **www**         Stores the dependent images, theme setting and html pages.  
+  + **renv**        [renv package](https://rstudio.github.io/renv/articles/renv.html) files. These 2 bring project-local R dependency management to your projects. 
+  + **renv.lock**
+  + **README.md**   First step instruction about how to start the application in Github repository.
+  + **.gitignore**  Github file. Do not need to modify it.
+    
+### Maintain Use  
+    
+  + **maintain** An R markdown documentation about how to maintain this application.
+  + **data-raw** Raw data downloaded.
+  + **html** Many markdown files of the html pages used in the application.
+      + **images** Used on the theme application, do not modify.
+      + **markdown** R markdown files of all html pages used in this application, and CSS theme file.
+          + **www** The dependent images that are needed to render the html pages.
+
+# Update and maintain the data used
+## HYDAT station data  
+  
+Recommended to run every quarter to update the database `Hydat_sqlite3_date`
+Check here if there is a newer version https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/  
+  
+```{r, haydattable, eval=FALSE}
+library(tidyhydat)
+library(fasstr)
+
+# see if you already has HYDAT database
+tidyhydat::download_hydat()# then select 1, download HYDAT SQL database now and save to app path
+hy_dir() 
+
+# subset Canada-wide stations to BC stations 
+
+#  stations from package fasstr
+stationlistBC <- allstations %>% 
+                  filter(PROV_TERR_STATE_LOC=="BC") %>%
+                  rename_all(tolower) %>%  
+                  select(station_number, station_name, latitude, longitude) 
+# stations from package tidyhydat
+stationlistBC_th <- hy_stations() %>% 
+                    filter(PROV_TERR_STATE_LOC=="BC") %>%
+                    rename_all(tolower) %>%  
+                    select(station_number, drainage_area_gross)
+# get application use table
+hydattable <- left_join(stationlistBC, stationlistBC_th, by = 'station_number') %>%
+              relocate(drainage_area_gross, .before = latitude)
+
+## do not run
+# save(hydattable, file = "data/mapdata_hydat.RDa")   # save the hydattable to `projectFolder/data/mapdata_hydat.RDa` for Application loading
+```
+
+## Watershed polygon data
+Download [Freshwater Atlas Named Watersheds](https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-named-watersheds) for the entire BC. Put the downloaded data to `projectFolder/data-raw/FWNMDWTRSH_polygon.shp`.
+The code below describes how to prepare the watershed polygon layer used in the application. **Run only if the [Freshwater Atlas Named Watersheds](https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-named-watersheds) has been changed.**
+
+```{r, polygon, eval=FALSE}
+# Do not run
+
+# library(sp)
+# library(raster)
+# library(units)
+# library(terra)
+# library(sf)
+# library(tidyverse)
+# 
+# FWNMDWTRSH_polygon <- st_transform(read_sf("data-raw/FWNMDWTRSH_polygon.shp", stringsAsFactors = FALSE), crs = 4326)
+# Strmrdr_4 <- FWNMDWTRSH_polygon %>% filter(STRMRDR == 4)
+# Strmrdr_4$GNIS_ID <- as.character(Strmrdr_4$GNIS_ID)
+# Strmrdr4df <- Strmrdr_4 %>% 
+#               st_drop_geometry() %>%
+#               select(-c(NMDWTRSHDD, BLLNK, FWWTRSHDCD, OBJECTID, FEAT_LEN)) %>%
+#               as.data.frame()
+# 
+# save(Strmrdr_4, Strmrdr4df, file = "data/mapdata_watershed.RDa")
+```
+  
+# Modify and maintain the html pages
+  
+  This application embodied several html pages:  
+  
+  + The second page `Watershed Data List` embodied 11 html pages.
+  + The third page `User Guide` embodied 1 html pages.
+  
+  These 12 html pages are generated from 12 R markdown files, which are all located in the `projectFolder/html/markdown/pageNmae.rmd`. To modify the content in these pages, please find the accordingly `/pageName.rmd` file, then modify it (do not modify its [YAML](https://monashdatafluency.github.io/r-rep-res/yaml-header.html) header). After `Knit` the modified `.rmd` file to an html file, manually move this html file to `projectFolder/www/keepSamePageName.html` so the application will call it then loaded.
+  
+  
+  
+  *The End*
+  
+

@@ -1,0 +1,61 @@
+---
+title: "Historical Climate"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of historical climate and weather in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### What is the total precipitation of the watershed?
+
+  + **Purpose:** Helpful for general understanding of watershed hydrology
+  + **Resources:** 
+    + [Environment Canada](https://climate.weather.gc.ca/)
+    + [PCIC Data Portal](https://www.pacificclimate.org/data)
+    + [BC Hydro Hydrometeorological data](https://www.bchydro.com/energy-in-bc/operations/transmission-reservoir-data/hydrometeorologic-data.html)
+    + [weathercan R Package](https://github.com/ropensci/weathercan)
+
+
+### How much precipitation falls as rain vs. snow? 
+  + **Purpose:** Helpful for general understanding of watershed hydrology
+  + **Resources:** 
+    + [Environment Canada](https://climate.weather.gc.ca/)
+    + [PCIC Data Portal](https://www.pacificclimate.org/data)
+    + [Snow Survey Data](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/snow-survey-data)
+    + [MoTI Avalance and Weather Programs](https://www2.gov.bc.ca/gov/content/transportation/transportation-environment/weather-network-program)
+    
+  
+### What is the mean annual temperature?  
+  + **Purpose:** Helpful for general understanding of physiographic environment
+  + **Resources:** 
+    + [Environment Canada](https://climate.weather.gc.ca/)
+    + [PCIC Data Portal](https://www.pacificclimate.org/data)
+    + [ClimateBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services#BCGW)
+  
+### How have precipitation and temperature changed over time in the watershed? 
+  + **Purpose:** May indicate larger scale variability in climatological factors, and/or effects of climate change
+  + **Resources:** 
+    + [Environment Canada](https://climate.weather.gc.ca/)
+  
+### What weather stations exist or have existed in the watershed?  
+  + **Purpose:** Helpful for a general understanding of physiographic environment, and potentially snowpack
+  + **Resources:** 
+      + [Environment Canada](https://climate.weather.gc.ca/)
+      + [PCIC Data Portal](https://www.pacificclimate.org/data)
+  
+### What is the seasonal distribution of precipitation?
+  + **Purpose:** Helpful for defining watershed hydrology and high-level flow characteristics in the absence of flow data
+  + **Resources:** 
+      + [Environment Canada](https://climate.weather.gc.ca/)
+      + [PCIC Data Portal](https://www.pacificclimate.org/data)
+  
+### What depth of snowpack is present in the watershed? 
+  + **Purpose:** Helpful for understanding role of snow in the hydrology of the watershed
+  + **Resources:** 
+      + [Snow Survey Data](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/snow-survey-data)
+      + [MoTI Avalance and Weather Programs](https://www2.gov.bc.ca/gov/content/transportation/transportation-environment/weather-network-program)

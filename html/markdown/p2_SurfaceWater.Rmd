@@ -1,0 +1,97 @@
+---
+title: "Surface water"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of surface water in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### Does the watershed contain any lakes? 
+  + **Purpose:** Helps determine the hydrological response time to precipitation or snowmelt; can indicate water sources during dry conditions
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Geogratis](https://geogratis.gc.ca/)
+
+
+### When do the highest streamflows usually occur? 
+  + **Purpose:** An indicator of different hydrological regimes (rain dominated, snowmelt dominated, etc)
+  + **Resources:** 
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+    + [BC Water tool](https://www.bcwatertool.ca/)
+
+  
+### Is the water system regulated or natural? Are any diversions present?
+  + **Purpose:** Important for interpreting patterns in streamflow data
+  + **Resources:** 
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+ 
+  
+### What is the expected hydrologic regime (rain, snow, hybrid, glacial) of the area?
+  + **Purpose:** Important for understanding impacts of landcover change and climate change on watershed hydrology, especially flood flows
+  + **Resources:** 
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+    + [Environment Canada](https://climate.weather.gc.ca/)
+ 
+  
+### In terms of water storage and release components, what is the role of wetlands, lakes, dams/diversions, glaciers, preferential flow, and groundwater in shaping daily and/or seasonal discharge? 
+  + **Purpose:** General understanding of watershed hydrology
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Geogratis](https://geogratis.gc.ca/)
+    + [BC Water tool](https://www.bcwatertool.ca/)
+  
+### Is runoff rapid or a prolonged event? Does runoff occur immediately after a storm or is it delayed? What is the primary hydrologic driver (snow, rain, groundwater, glaciers, or convective storms)?
+  + **Purpose:** General understanding of watershed hydrology; understanding of water storage and release mechanisms
+  + **Resources:** 
+      + [Environment Canada](https://climate.weather.gc.ca/)
+      + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+  
+### What is the seasonality of flow? Do low flows occur only in specific seasons or at any time during the year?
+  + **Purpose:** Implications for water allocations, aquatic habitat conditions
+  + **Resources:** 
+      + [Snow Survey Data](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-science-data/water-data-tools/snow-survey-data)
+      + [MoTI Avalance and Weather Programs](https://www2.gov.bc.ca/gov/content/transportation/transportation-environment/weather-network-program)
+      
+### Does streamflow ever become intermittent along the channel profile?
+  + **Purpose:** Implications for water allocations, aquatic habitat conditions, general characterisation of hydrological conditions. 
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+
+### Have zero-flow conditions been measured in the watershed?
+  + **Purpose:** Implications for water allocations, aquatic habitat conditions, general characterisation of hydrological conditions. 
+  + **Resources:** 
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+
+### Are drainage diversions, roads, ditches or other impervious surfaces affecting runoff patterns and timing?
+  + **Purpose:** Implications for explaining patterns in streamflows, particularly flood events in small streams
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Geogratis](https://geogratis.gc.ca/)
+
+### Does the stream network freeze in the winter?
+  + **Purpose:** Implications for water allocations, aquatic habitat conditions
+  + **Resources:**      
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+    + [Google Earth desktop](https://www.google.com/earth/versions/) 
+    
+### Has a flood frequency analysis been undertaken in the watershed? 
+  + **Purpose:** General understanding of watershed hydrology
+  + **Resources:**  
+  + [BC River Forecast Center](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/river-forecast-centre)
+  
+      
+      
+      
+           
+      
+      
+      
+      
+      
+      

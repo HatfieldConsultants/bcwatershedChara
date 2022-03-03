@@ -1,0 +1,56 @@
+---
+title: "Geology and Geomorphology"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of geology and geomorphology in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### Have there been any recent extreme floods? If not, how long ago was the last major flood?
+  + **Purpose:** May indicate consequences of watershed disturbance; may indicate additional channel change is possible
+  + **Resources:** 
+    + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+
+
+
+### Are there landslides or debris flows in the watershed, or are these likely to occur? 
+  + **Purpose:** Can indicate risk of channel change, flooding, and other downstream hazards from changes in sediment inputs 
+  + **Resources:** 
+    + [ImapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Sentinel playground](https://apps.sentinel-hub.com/sentinel-playground/)
+    + [BC air photo viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer)
+
+  
+### Is water often observed to be turbid during high flows or after rain, but otherwise clear?  
+  + **Purpose:** Can indicate a high level of sediment input or movement; may indicate water quality issues
+  + **Resources:** 
+    + [Surface Water Monitoring Sites Interactive Map](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+ 
+ 
+  
+### Are large or new gravel bars apparent in the stream or river channel? 
+  + **Purpose:** Indicates high sediment input and channel migration potential
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Sentinel playground](https://apps.sentinel-hub.com/sentinel-playground/)
+    + [BC air photo viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer)
+ 
+  
+### Does the channel show signs of erosion? 
+  + **Purpose:** Can indicate a change in the quantity of sediment supplied to the channel, or changes in streamflow from watershed disturbance
+  + **Resources:** 
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Sentinel playground](https://apps.sentinel-hub.com/sentinel-playground/)
+    + [BC air photo viewer](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/digital-imagery/air-photos/air-photo-viewer)
+   
+
+
+
+  

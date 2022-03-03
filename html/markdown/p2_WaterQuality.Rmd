@@ -1,0 +1,56 @@
+---
+title: "Water Quality"
+output:
+  html_document:
+    toc: true
+    css: bcgov.css
+---
+# Introduction
+
+This section provides a list of common questions related to characterization of water quality in a watershed of interest. Questions, the purpose for asking it, and associated resources are listed below. 
+
+## Key questions
+
+### Are high levels of turbidity often observed in the river? 
+  + **Purpose:** Indicates potential problems for water treatment, potential effects of land cover disturbance, and possible sediment input to streams
+  + **Resources:** 
+    + [Surface Water Monitoring Sites Interactive Map](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+    + [BC EMS](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/groundwater-observation-well-network)
+
+
+### What is the stream water temperature in summer? 
+  + **Purpose:** Provides indication of suitability for habitat for aquatic species. 
+  + **Resources:** 
+     + [Water Survey of Canada](https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html)
+
+  
+### What is the pH of surface and groundwater? 
+  + **Purpose:** General water quality indicator, may indicate contamination
+  + **Resources:** 
+    + [BC EMS](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/groundwater-observation-well-network)
+    + [Surface Water Monitoring Sites Interactive Map](https://open.canada.ca/data/en/dataset/02dba161-fdb7-48ae-a4bb-bd6ef017c36d)
+ 
+ 
+  
+### What is the electrical conductivity of surface and groundwater? 
+  + **Purpose:** General water quality indicator, may indicate contamination
+  + **Resources:** 
+    + [BC EMS](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/groundwater-observation-well-network)
+    + [shinyREMS](https://github.com/bcgov/shinyrems)
+ 
+  
+### Have algae blooms been observed in surface water?  
+  + **Purpose:** General water quality indicator, may indicate contamination, especially from agricultural runoff. 
+  + **Resources:** 
+    + [BC EMS](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/groundwater-observation-well-network)
+    + [Google Earth desktop](https://www.google.com/earth/versions/)
+    + [Sentinel playground](https://apps.sentinel-hub.com/sentinel-playground/)
+   
+
+### What water quality guidelines are applicable in the watershed of interest?  
+  + **Purpose:** Heplful information for placing findings into broader context
+  + **Resources:** 
+    + [Water Quality Objectives Reports](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-quality/water-quality-objectives)
+   
+
+  
