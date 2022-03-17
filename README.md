@@ -1,4 +1,6 @@
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![img](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)   
+  
 bcwatershedChara
 ============================
 
@@ -34,11 +36,10 @@ runApp()
 #### Maintain and update data instruction
   
   See `/maintain/How-to-maintain-this-app.html`. 
-
-
+  
 ### Project Status
 
-[![img](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
+This is mature project. 
 
 ### Getting Help or Reporting an Issue
 

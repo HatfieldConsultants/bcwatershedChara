@@ -203,9 +203,9 @@ server <- function(input, output, session) {
                     addProviderTiles(providers$OpenTopoMap, group='Topographic') %>%
                     addTiles(group = 'Basic map') %>%
                     addGraticule(interval = 1, style = list(color = 'lightgrey', weight = 0.5)) %>%
-                    addMarkers(data = hydattable, lng = ~longitude, lat = ~latitude, layerId = ~station_number, 
-                               clusterOptions = markerClusterOptions(),
-                               label = ~str_to_title(paste(station_number, station_name))) %>% 
+                    addCircleMarkers(data = hydattable, lng = ~longitude, lat = ~latitude, layerId = ~station_number, 
+                               clusterOptions = markerClusterOptions(reezeAtZoom = 10), 
+                               label = ~ str_to_title(paste(station_number, station_name))) %>% 
                     addPolygons(data = Strmrdr_4, color = 'black', weight = 2, layerId = ~GNIS_ID, 
                                 popup = ~GNIS_NAME, group = 'StreamWatershed_4', fillOpacity = 0) %>%
                     addLayersControl(overlayGroups = c('StreamWatershed_4',  'Topographic', 'Basic map'),
@@ -330,7 +330,7 @@ server <- function(input, output, session) {
                         select(GNIS_ID, GNIS_NAME,STRMRDR, AREA_HA) %>%
                         rename("BCGNIS ID"       = "GNIS_ID",
                                 "Watershed Name" = "GNIS_NAME",
-                                "Streme No"      = "STRMRDR",
+                                "Stream No"      = "STRMRDR",
                                 "Area (ha)"      = "AREA_HA" )
         df_rangebox  <- sf::st_bbox(watershed_poly_row) %>% 
                         as.vector() %>% t() %>% as.data.frame() %>%
