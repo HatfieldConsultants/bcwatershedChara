@@ -20,7 +20,7 @@ library(leaflet)
 library(leaflet.extras)
 library(plotly)
 library(raster)
-library(rgdal)
+#library(rgdal) # retire in 2023
 library(sf)
 library(sp)
 library(terra)
@@ -29,7 +29,7 @@ library(markdown)
 library(shiny)
 library(shinycssloaders)
 library(shinyjs)
-library(shinythemes) # used themes
+library(shinythemes)
 library(DT)
 
 # how to add GIS data is explained in maintain folder
